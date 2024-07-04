@@ -21,7 +21,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "「ʀᴇᴅ ᴡɪɴᴇ ᴍᴜsɪᴄ �
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = getenv("LOGGER_ID", None)
 
 # Support chat id
 SUPPORT_CHAT_ID = int(getenv("SUPPORT_CHAT_ID"))
